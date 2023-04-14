@@ -34,5 +34,5 @@ ________________________________________________________________________________
 Preview:
 
 
-![Preview](https://github.com/RockPiryt/Password_generator/blob/main/preview.jpg?raw=true)
+![Preview](https://github.com/RockPiryt/Password_generator/blob/main/preview_app.jpg?raw=true)
 ![Data_file_preview](https://github.com/RockPiryt/Password_generator/blob/main/data_file_preview.jpg?raw=true)
