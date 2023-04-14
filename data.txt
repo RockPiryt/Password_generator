@@ -1,0 +1,6 @@
+ [WEBSITE/APP] :      EMAIL/LOGIN | PASSWORD
+
+*[Allegro] :      your_mail@gmail.com | 12345
+*[Millenium] :      bank_mail@gmail.com | asdfg
+*[Groupon] :      bank_mail@gmail.com | qwerty
+*[Olx] :      olx_mail@gmail.com | hC+&*2c&c7N1ByD
