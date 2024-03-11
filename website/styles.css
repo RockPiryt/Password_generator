@@ -1,0 +1,91 @@
+body {
+    background-image: url('keyboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00ced1;
+}
+
+.form-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="button"], input[type="submit"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: rgba(68, 68, 68, 0.7);
+    color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: rgba(0, 206, 209, 0.8);
+    border: none;
+    padding: 15px 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: rgba(0, 178, 186, 0.8);
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.password-group {
+    display: flex;
+    align-items: center;
+}
+
+#password {
+    flex: 3;
+    margin-right: 10px;
+}
+
+#generate-password {
+    flex: 1;
+    width: 25%; /* Ustawienie szerokości przycisku na 25% */
+    font-size: 12px;
+}
