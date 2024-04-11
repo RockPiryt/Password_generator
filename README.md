@@ -39,11 +39,21 @@ List the ready features here:
 
 ## Screenshots
  The serverless application:
-![Website](./documentation/password_website_preview.jpeg)
+ Website
+![Website](./documentation/AWS_files/password_website_preview.jpeg)
+Lambda Function
+![lambda](./documentation/AWS_files/lambda.jpeg)
+API_Gateway
+![API_Gateway](./documentation/AWS_files/API_Gateway.jpeg)
+DynamoDB
+![DynamoDB](./documentation/AWS_files/DynamoDB.jpeg)
 
- The application with UI created with Tkinter:
-![Tkinter](./documentation/preview_app.jpg)
-![TXT file](./documentation/data_file_preview.jpg)
+
+The application with UI created with Tkinter:
+Tkinter UI
+![Tkinter](./documentation/Tkinter_files/preview_app.jpg)
+TXT file
+![TXT file](./documentation/Tkinter_files/data_file_preview.jpg)
 
 ## Setup
 
