@@ -1,9 +1,10 @@
 # Password Generator
-> 2 types of application: 
+## 2 types of application: 
 - Severless application (AWS Lambda+ AWS DynamoDB)
 - Application with UI created with Tkinter package (save data to txt file)
 
-> Live demo [_here_](https://www.rockpiryt.link).
+# Live demo 
+[rockpiryt.link](https://rockpiryt.link)
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,19 +12,15 @@
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
 ## General Information
 
-> The serverless application empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in AWS DynamoDB.
+### The serverless application empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in AWS DynamoDB.
 
-
-> The application with UI created with Tkinter empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in txt file.
+### The application with UI created with Tkinter empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in txt file.
 
 
 ## Technologies Used
@@ -41,12 +38,12 @@ List the ready features here:
 
 
 ## Screenshots
-> The serverless application:
+ The serverless application:
 ![Website](./documentation/password_website_preview.jpeg)
 
-> The application with UI created with Tkinter:
+ The application with UI created with Tkinter:
 ![Tkinter](./documentation/preview_app.jpg)
-![TXT file](./documentation/data_file_previewjpg)
+![TXT file](./documentation/data_file_preview.jpg)
 
 ## Setup
 
