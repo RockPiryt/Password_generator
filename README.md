@@ -1,9 +1,10 @@
 # Password Generator
-> 2 types of application: 
+## 2 types of application: 
 - Severless application (AWS Lambda+ AWS DynamoDB)
 - Application with UI created with Tkinter package (save data to txt file)
 
-> Live demo [_here_](https://www.rockpiryt.link).
+# Live demo [rockpiryt.link]
+https://rockpiryt.link.
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -11,10 +12,7 @@
 * [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
-* [Usage](#usage)
 * [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
 * [Contact](#contact)
 
 
@@ -41,15 +39,24 @@ List the ready features here:
 
 
 ## Screenshots
-> The serverless application:
-![Website](./documentation/password_website_preview.jpeg)
+### The serverless application:
+Website
+![Website](./documentation/AWS_files/password_website_preview.jpeg)
+API_gateway
+![API_gateway](./documentation/AWS_files/API_Gateway.jpeg)
+DynamoDB
+![DynamoDB](./documentation/AWS_files/DynamoDB.jpeg)
+Lambda
+![lambda](./documentation/AWS_files/lambda.jpeg)
 
-> The application with UI created with Tkinter:
-![Tkinter](./documentation/preview_app.jpg)
-![TXT file](./documentation/data_file_previewjpg)
+
+### The application with UI created with Tkinter:
+Tkinter UI
+![Tkinter](./documentation/Tkinter_files/preview_app.jpg)
+Data in txtfile
+![TXT file](./documentation/Tkinter_files/data_file_preview.jpg)
 
 ## Setup
-
 1. Clone This Project git clone
 2. Enter Project Directory cd PASSWORD_GENERATOR
 3. Create a Virtual Environment (for Windows) py -m venv (name your virtual enviroment :) venv
@@ -59,10 +66,8 @@ List the ready features here:
 5. Install Requirements Package pip install -r requirements.txt
 6. Finally Run The Project: python main.py
 
-
 ## Project Status
 Project is: _in progress_ 
-
 
 ## Contact
 - Created by [@RockPiryt Github](https://github.com/RockPiryt)
