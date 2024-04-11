@@ -1,38 +1,75 @@
-#OWN PROJECT
+# Password Generator
+> 2 types of application: 
+- Severless application (AWS Lambda+ AWS DynamoDB)
+- Application with UI created with Tkinter package (save data to txt file)
 
-Project name: Password generator application
-____________________________________________________________________________________________
-Briefly about the application:
-Application was made with Tkinter and Canvas widgets.
-Application is used to manage user password.
+> Live demo [_here_](https://www.rockpiryt.link).
 
-User write:
-- Website or Application name
-- Email  or Login
-- User password or Generate random password  by clicking button
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
-After clicking 'ADD' button application save information from entries to data.txt file.
 
-_______________________________________________________________________________________________
-How To Setup
+## General Information
+
+> The serverless application empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in AWS DynamoDB.
+
+
+> The application with UI created with Tkinter empowers users to manage their passwords effectively. Users have the option to input their own passwords or automatically generate a random one. Data are saved in txt file.
+
+
+## Technologies Used
+- Python 3.11
+- Pyperclip 1.8.2
+- AWS Lambda Functions
+- AWS DynamoDB
+
+
+## Features
+> The serverless application:
+List the ready features here:
+- One Lambda function is dedicated to generating random passwords
+- Second Lambda function is tasked with saving data from the form to DynamoDB.
+
+
+## Screenshots
+> The serverless application:
+![Website](./documentation/password_website_preview.jpeg)
+
+> The application with UI created with Tkinter:
+![Tkinter](./documentation/preview_app.jpg)
+![TXT file](./documentation/data_file_previewjpg)
+
+## Setup
 
 1. Clone This Project git clone
-
 2. Enter Project Directory cd PASSWORD_GENERATOR
-
 3. Create a Virtual Environment (for Windows) py -m venv (name your virtual enviroment :) venv
 
-    EXAMPLE: py -m venv venv
-
+   EXAMPLE: py -m venv venv
 4. Activate Virtual Environment source: venv/Scripts/activate
-
 5. Install Requirements Package pip install -r requirements.txt
-
 6. Finally Run The Project: python main.py
 
-_____________________________________________________________________________________
-Preview:
+
+## Project Status
+Project is: _in progress_ 
 
 
-![Preview](https://github.com/RockPiryt/Password_generator/blob/main/preview_app.jpg?raw=true)
-![Data_file_preview](https://github.com/RockPiryt/Password_generator/blob/main/data_file_preview.jpg?raw=true)
+## Contact
+- Created by [@RockPiryt Github](https://github.com/RockPiryt)
+- My Resume [@RockPiryt Resume](https://paulinakimak.com)
+
+Feel free to contact me!
+
+
+
+
